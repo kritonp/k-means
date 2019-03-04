@@ -1,6 +1,4 @@
-# k-means
-A k-means clustering
-
+# k-means / k-medoids
 #### Initialization ####
 1. Random selection of k points (simplest)<br>
 2. K-means++<br>
