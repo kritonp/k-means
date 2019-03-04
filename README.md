@@ -25,7 +25,7 @@ X_ij are integer values of item_N<br>
 <br>
 ## Compile & Run ##
 ```$ make```  
-```$./cluster –i input_file –c configuration_file -o output_file -d metric -n random_k_selection```
+```$./cluster –i input_file –c cluster.conf -o output_file -d metric -n random_k_selection```
 <br>
 Parameters Explained: <br>
 	-i: dataset 		{comma separated or tab separated files} <br>
@@ -37,4 +37,6 @@ Parameters Explained: <br>
 	-n: init_method 	{kmeans++, random_k_selection, reservoir_sampling}, random_k_selection by default<br>
 	-u: update_method 	{kmeans, PAM}, kmeans by default<br>
 	-p: print_clusters_flag {flag to enable writing id in every cluster in log file, enable with 1}<br>
+	
+
   
