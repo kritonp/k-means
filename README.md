@@ -23,7 +23,7 @@ item_idN XN1 XN2 ...
 X_ij are integer values of item_N<br>
 
 ##### Output ##### 
-[view output](github.com)
+[view output](https://github.com/kritonp/k-means/blob/master/outputs/output.txt)
 <br>
 ## Compile & Run ##
 ```$ make```  
